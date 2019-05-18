@@ -1,0 +1,112 @@
+html,body {
+    width: 120%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+		overflow-y: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+#div_page_hikayemiz {
+  position: absolute;
+  top: 10%;
+  min-height : 100%;
+  min-width : 100%;
+  background-size:100% 100%;
+  background-repeat:no-repeat;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  overflow: scroll;
+ }
+#navbar_yazilari {
+	font-size: 2vw;
+}
+#navbar_yazilari_2 {
+	font-size: 2vw;
+}
+#navbar_yazilari_3 {
+	font-size: 2vw;
+}
+/* Pen-specific styles */
+body {
+  font-size: 1.25rem;
+  font-family: sans-serif;
+  line-height: 150%;
+}
+.sec_hikayemiz {
+  text-align: center;
+}
+div {
+  height: 100%;
+}
+.half_half {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 20px;
+}
+/* Pattern styles */
+.container {
+  display: table;
+  width: 100%;
+}
+.left-half {
+  position: absolute;
+  left: 0px;
+  height: 100%;
+  width: 60%;
+  overflow: scroll;
+}
+.right-half {
+  position: absolute;
+  right: 0px;
+  height: 100%;
+  width: 40%;
+  overflow: scroll;
+}
+.img_1 {
+  width: 55%;
+  margin: 10px 0px 30px 120px;
+}
+.img_2 {
+  width: 55%;
+  margin: 10px 10px 0px 30px;
+}
+#div_hikayemiz {
+  height: 70%;
+  font-size: 2vw;
+  margin: 5px 15px 15px 15px;
+}
+#h1_hikayemiz {
+  position: absolute;
+  bottom: 95%;
+  right: 40%;
+  font-size: 4vw;
+  font-family: 'Italianno';
+}
+#p_hikayemiz {
+  position: relative;
+  top: 10px;
+  font-size: 1.80vw;
+  font-family: 'Merriweather';
+  margin: 5px 0px 125px 0px;
+}
+#h1_iletisim {
+  font-size: 4vw;
+  position: absolute;
+  top: 76%;
+  left: 10%;
+  font-family: 'Italianno';
+}
+#pre_iletisim {
+  font-size: 2vw;
+  font-family: 'Merriweather';
+  position: absolute;
+  top: 85%;
+  left: 5%;
+}

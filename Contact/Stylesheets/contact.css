@@ -1,0 +1,28 @@
+html,body {
+    width: 120%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+		overflow-y: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+#navbar_yazilari {
+	font-size: 2vw;
+}
+#navbar_yazilari_2 {
+	font-size: 2vw;
+}
+#navbar_yazilari_3 {
+	font-size: 2vw;
+}
+/* Pen-specific styles */
+body {
+  font-size: 1.25rem;
+  font-family: sans-serif;
+  line-height: 150%;
+}

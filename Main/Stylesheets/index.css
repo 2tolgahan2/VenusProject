@@ -1,0 +1,50 @@
+html,body {
+    width: 120%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+		overflow-y: hidden;
+}
+#div_page_1 {
+  background-image: url("../Images/bg_main.png");
+  min-height : 100%;
+  min-width : 100%;
+  background-size:100% 100%;
+  background-repeat:no-repeat;
+  overflow-y: hidden;
+  overflow-x: hidden;
+ }
+#navbar_yazilari {
+	font-size: 23px;
+}
+#navbar_yazilari_2 {
+	font-size: 23px;
+}
+#navbar_yazilari_3 {
+	font-size: 23px;
+}
+#pre_giris {
+	font-size: 6vw;
+	font-family: 'Merriweather';
+	color: rgb(229, 237, 249);
+	position: relative;
+	top: 180px;
+	left: 5%;
+}
+#but_hikayemiz {
+  font-family: 'Merriweather';
+	position: absolute;
+  top: 60%;
+  left: 34%;
+  font-size: 20px;
+  color: rgb(229, 237, 249);
+}
+ #finish {
+ 	font-size: 1vw;
+ 	font-family: 'Bitter';
+ 	color: rgb(244, 249, 249);
+ 	position: absolute;
+ 	top: 94%;
+ 	left: 42%;
+ }
